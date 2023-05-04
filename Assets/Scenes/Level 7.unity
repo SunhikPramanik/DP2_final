@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93444d721db2e7f4a993345d32cba3ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 5
+  rotateSpeed: 7
 --- !u!1 &43356522
 GameObject:
   m_ObjectHideFlags: 0
@@ -2059,7 +2059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e259c44696d0b2a419b81eb892e8dc23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 7
+  rotateSpeed: 10
 --- !u!1 &338299283
 GameObject:
   m_ObjectHideFlags: 0
@@ -3540,7 +3540,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 547206208}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2079be8fd0be53542918a4d29a36cb63, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3764,7 +3764,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 577563354}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2079be8fd0be53542918a4d29a36cb63, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5280,7 +5280,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 734524559}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2079be8fd0be53542918a4d29a36cb63, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -5620,7 +5620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e259c44696d0b2a419b81eb892e8dc23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 7
+  rotateSpeed: 10
 --- !u!1 &860218585
 GameObject:
   m_ObjectHideFlags: 0
@@ -6640,7 +6640,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -10246,7 +10246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e259c44696d0b2a419b81eb892e8dc23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 7
+  rotateSpeed: 10
 --- !u!1 &1259734991
 GameObject:
   m_ObjectHideFlags: 0
@@ -10626,7 +10626,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1355004546}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2079be8fd0be53542918a4d29a36cb63, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -12048,7 +12048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e259c44696d0b2a419b81eb892e8dc23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 7
+  rotateSpeed: 10
 --- !u!1 &1661087009
 GameObject:
   m_ObjectHideFlags: 0
@@ -12430,7 +12430,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1717058589}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2079be8fd0be53542918a4d29a36cb63, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
