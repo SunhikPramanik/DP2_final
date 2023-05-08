@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnvironmentMovement : MonoBehaviour
 {
     [SerializeField] float rotateSpeed = 2;
-    // Start is called before the first frame update
+    
     void Start()
     {
 
@@ -14,11 +14,11 @@ public class EnvironmentMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        if ((Input.GetKey(KeyCode.D) && (PlayerMovement.instance.pause == false)) || ((Input.GetKey(KeyCode.LeftArrow)) && (PlayerMovement.instance.pause==false)))
         {
             this.transform.Rotate(0, 0, -5 * rotateSpeed * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.A))
+        if ((Input.GetKey(KeyCode.A) && (PlayerMovement.instance.pause == false)) || ((Input.GetKey(KeyCode.RightArrow)) && (PlayerMovement.instance.pause == false)))
         {
             this.transform.Rotate(0, 0, 5 * rotateSpeed * Time.deltaTime);
         }
